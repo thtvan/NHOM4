@@ -27,7 +27,7 @@ class Ui_MainWindow(object):
         self.label.setStyleSheet("color: rgb(0,0,0);\n"
 "border:None;")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("Images/LOGO.png"))
+        self.label.setPixmap(QtGui.QPixmap("../Images/LOGO.png"))
         self.label.setObjectName("label")
         self.pushButton = QtWidgets.QPushButton(parent=self.logo)
         self.pushButton.setGeometry(QtCore.QRect(0, 0, 1199, 992))
