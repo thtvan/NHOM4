@@ -19,6 +19,7 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnLogIn.clicked.connect(self.switch_to_main)     # Từ LogIn -> Main
         self.ui.btnSignup.clicked.connect(self.switch_to_login)   # Từ SignUp -> LogIn
 
+
     def switch_to_askTK(self):
         """Chuyển từ logo sang màn hình askTK"""
         self.ui.stackedWidget.setCurrentWidget(self.ui.askTK)
