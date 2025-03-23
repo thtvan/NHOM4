@@ -146,6 +146,70 @@ def export_to_json():
 # Gọi hàm để lưu dữ liệu
 export_to_json()
 
+
 #import matplotlib.pyplot as plt
 #plt.plot([1, 2, 3], [4, 5, 6])
 #plt.show()
+
+import sqlite3
+import json
+
+# Kết nối database
+def connect_db():
+    conn = sqlite3.connect("task_manager.db")
+    cursor = conn.cursor()
+    return conn, cursor
+
+# Đọc dữ liệu từ JSON
+with open("backup_data.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
+
+goals = data["goals"]
+
+# Kết nối SQLite
+conn, cursor = connect_db()
+
+# Câu lệnh INSERT hoặc UPDATE nếu ID đã tồn tại
+for goal in goals:
+    cursor.execute("SELECT id FROM goals WHERE id = ?", (goal["id"],))
+    existing_id = cursor.fetchone()
+
+    if existing_id is None:
+        # Thêm dữ liệu mới
+        cursor.execute("""
+            INSERT INTO goals (id, user_id, title, description, priority, due_date) 
+            VALUES (?, ?, ?, ?, ?, ?)
+        """, (
+            goal["id"],
+            goal["user_id"],
+            goal["title"],
+            goal["description"],
+            goal["priority"],
+            goal["due_date"]
+        ))
+        print(f"Thêm mới ID {goal['id']} thành công.")
+    else:
+        # Cập nhật dữ liệu nếu ID đã tồn tại
+        cursor.execute("""
+            UPDATE goals 
+            SET user_id = ?, title = ?, description = ?, priority = ?, due_date = ?
+            WHERE id = ?
+        """, (
+            goal["user_id"],
+            goal["title"],
+            goal["description"],
+            goal["priority"],
+            goal["due_date"],
+            goal["id"]
+        ))
+        print(f"Cập nhật ID {goal['id']} thành công.")
+
+# Lưu thay đổi vào database
+conn.commit()
+print("Dữ liệu từ JSON đã được đồng bộ vào bảng goals!")
+
+# Đóng kết nối
+conn.close()
+
+
+
