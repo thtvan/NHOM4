@@ -374,13 +374,6 @@ class Ui_MainWindow(object):
         self.ToDoList_4 = QtWidgets.QWidget()
         self.ToDoList_4.setMaximumSize(QtCore.QSize(906, 750))
         self.ToDoList_4.setObjectName("ToDoList_4")
-        self.btnAdd_4 = QtWidgets.QPushButton(parent=self.ToDoList_4)
-        self.btnAdd_4.setGeometry(QtCore.QRect(110, 70, 81, 81))
-        self.btnAdd_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
-"color: rgb(0,0,0);\n"
-"border:None;")
-        self.btnAdd_4.setText("")
-        self.btnAdd_4.setObjectName("btnAdd_4")
         self.lineAdd_7 = QtWidgets.QLineEdit(parent=self.ToDoList_4)
         self.lineAdd_7.setGeometry(QtCore.QRect(100, 280, 571, 71))
         self.lineAdd_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
@@ -419,7 +412,6 @@ class Ui_MainWindow(object):
         self.btn_Pre.setText("")
         self.btn_Pre.setObjectName("btn_Pre")
         self.label_13.raise_()
-        self.btnAdd_4.raise_()
         self.lineAdd_7.raise_()
         self.lineAdd_8.raise_()
         self.lineAdd_9.raise_()
@@ -498,6 +490,20 @@ class Ui_MainWindow(object):
         self.btnDepressed.setText("")
         self.btnDepressed.setObjectName("btnDepressed")
         self.horizontalLayout.addWidget(self.btnDepressed)
+        self.btnNext_4 = QtWidgets.QPushButton(parent=self.EmoOkay)
+        self.btnNext_4.setGeometry(QtCore.QRect(810, 620, 91, 71))
+        self.btnNext_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+"color: rgb(0,0,0);\n"
+"border:None;")
+        self.btnNext_4.setText("")
+        self.btnNext_4.setObjectName("btnNext_4")
+        self.btnPre_4 = QtWidgets.QPushButton(parent=self.EmoOkay)
+        self.btnPre_4.setGeometry(QtCore.QRect(10, 620, 91, 71))
+        self.btnPre_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+"color: rgb(0,0,0);\n"
+"border:None;")
+        self.btnPre_4.setText("")
+        self.btnPre_4.setObjectName("btnPre_4")
         self.stackedWidget.addWidget(self.EmoOkay)
         self.EmoHappy = QtWidgets.QWidget()
         self.EmoHappy.setMaximumSize(QtCore.QSize(906, 750))
@@ -515,76 +521,76 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_3.setSpacing(27)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.btnLove_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnLove_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnLove_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnLove_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnLove_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnLove_8.setText("")
-        self.btnLove_8.setObjectName("btnLove_8")
-        self.horizontalLayout_3.addWidget(self.btnLove_8)
-        self.btnHappy_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnHappy_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnHappy_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_2.setText("")
+        self.btnLove_2.setObjectName("btnLove_2")
+        self.horizontalLayout_3.addWidget(self.btnLove_2)
+        self.btnHappy_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnHappy_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnHappy_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnHappy_8.setText("")
-        self.btnHappy_8.setObjectName("btnHappy_8")
-        self.horizontalLayout_3.addWidget(self.btnHappy_8)
-        self.btnExcited_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnExcited_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnExcited_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnHappy_2.setText("")
+        self.btnHappy_2.setObjectName("btnHappy_2")
+        self.horizontalLayout_3.addWidget(self.btnHappy_2)
+        self.btnExcited_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnExcited_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnExcited_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnExcited_8.setText("")
-        self.btnExcited_8.setObjectName("btnExcited_8")
-        self.horizontalLayout_3.addWidget(self.btnExcited_8)
-        self.btnOkay_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnOkay_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnOkay_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnExcited_2.setText("")
+        self.btnExcited_2.setObjectName("btnExcited_2")
+        self.horizontalLayout_3.addWidget(self.btnExcited_2)
+        self.btnOkay_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnOkay_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnOkay_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnOkay_8.setText("")
-        self.btnOkay_8.setObjectName("btnOkay_8")
-        self.horizontalLayout_3.addWidget(self.btnOkay_8)
-        self.btnAngry_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnAngry_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnAngry_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnOkay_2.setText("")
+        self.btnOkay_2.setObjectName("btnOkay_2")
+        self.horizontalLayout_3.addWidget(self.btnOkay_2)
+        self.btnAngry_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnAngry_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnAngry_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnAngry_8.setText("")
-        self.btnAngry_8.setObjectName("btnAngry_8")
-        self.horizontalLayout_3.addWidget(self.btnAngry_8)
-        self.btnSad_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnSad_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnSad_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnAngry_2.setText("")
+        self.btnAngry_2.setObjectName("btnAngry_2")
+        self.horizontalLayout_3.addWidget(self.btnAngry_2)
+        self.btnSad_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnSad_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnSad_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnSad_8.setText("")
-        self.btnSad_8.setObjectName("btnSad_8")
-        self.horizontalLayout_3.addWidget(self.btnSad_8)
-        self.btnDepressed_8 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
-        self.btnDepressed_8.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnDepressed_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnSad_2.setText("")
+        self.btnSad_2.setObjectName("btnSad_2")
+        self.horizontalLayout_3.addWidget(self.btnSad_2)
+        self.btnDepressed_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_3)
+        self.btnDepressed_2.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnDepressed_2.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnDepressed_8.setText("")
-        self.btnDepressed_8.setObjectName("btnDepressed_8")
-        self.horizontalLayout_3.addWidget(self.btnDepressed_8)
-        self.btnPre_4 = QtWidgets.QPushButton(parent=self.EmoHappy)
-        self.btnPre_4.setGeometry(QtCore.QRect(20, 610, 91, 71))
-        self.btnPre_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnDepressed_2.setText("")
+        self.btnDepressed_2.setObjectName("btnDepressed_2")
+        self.horizontalLayout_3.addWidget(self.btnDepressed_2)
+        self.btnPre_5 = QtWidgets.QPushButton(parent=self.EmoHappy)
+        self.btnPre_5.setGeometry(QtCore.QRect(20, 610, 91, 71))
+        self.btnPre_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnPre_4.setText("")
-        self.btnPre_4.setObjectName("btnPre_4")
-        self.btnNext_3 = QtWidgets.QPushButton(parent=self.EmoHappy)
-        self.btnNext_3.setGeometry(QtCore.QRect(820, 610, 91, 71))
-        self.btnNext_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnPre_5.setText("")
+        self.btnPre_5.setObjectName("btnPre_5")
+        self.btnNext_5 = QtWidgets.QPushButton(parent=self.EmoHappy)
+        self.btnNext_5.setGeometry(QtCore.QRect(820, 610, 91, 71))
+        self.btnNext_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnNext_3.setText("")
-        self.btnNext_3.setObjectName("btnNext_3")
+        self.btnNext_5.setText("")
+        self.btnNext_5.setObjectName("btnNext_5")
         self.stackedWidget.addWidget(self.EmoHappy)
         self.EmoExcited = QtWidgets.QWidget()
         self.EmoExcited.setMaximumSize(QtCore.QSize(906, 750))
@@ -602,75 +608,75 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_4.setSpacing(27)
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
-        self.btnLove_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnLove_9.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnLove_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnLove_3.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnLove_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnLove_9.setText("")
-        self.btnLove_9.setObjectName("btnLove_9")
-        self.horizontalLayout_4.addWidget(self.btnLove_9)
-        self.btnHappy_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnHappy_9.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnHappy_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_3.setText("")
+        self.btnLove_3.setObjectName("btnLove_3")
+        self.horizontalLayout_4.addWidget(self.btnLove_3)
+        self.btnHappy_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnHappy_3.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnHappy_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnHappy_9.setText("")
-        self.btnHappy_9.setObjectName("btnHappy_9")
-        self.horizontalLayout_4.addWidget(self.btnHappy_9)
-        self.btnExcited_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnExcited_9.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnExcited_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnHappy_3.setText("")
+        self.btnHappy_3.setObjectName("btnHappy_3")
+        self.horizontalLayout_4.addWidget(self.btnHappy_3)
+        self.btnExcited_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnExcited_3.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnExcited_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnExcited_9.setText("")
-        self.btnExcited_9.setObjectName("btnExcited_9")
-        self.horizontalLayout_4.addWidget(self.btnExcited_9)
-        self.btnOkay_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnOkay_9.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnOkay_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnExcited_3.setText("")
+        self.btnExcited_3.setObjectName("btnExcited_3")
+        self.horizontalLayout_4.addWidget(self.btnExcited_3)
+        self.btnOkay_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnOkay_3.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnOkay_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnOkay_9.setText("")
-        self.btnOkay_9.setObjectName("btnOkay_9")
-        self.horizontalLayout_4.addWidget(self.btnOkay_9)
-        self.btnAngry_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnAngry_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnOkay_3.setText("")
+        self.btnOkay_3.setObjectName("btnOkay_3")
+        self.horizontalLayout_4.addWidget(self.btnOkay_3)
+        self.btnAngry_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnAngry_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnAngry_9.setText("")
-        self.btnAngry_9.setObjectName("btnAngry_9")
-        self.horizontalLayout_4.addWidget(self.btnAngry_9)
-        self.btnSad_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnSad_9.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnSad_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnAngry_3.setText("")
+        self.btnAngry_3.setObjectName("btnAngry_3")
+        self.horizontalLayout_4.addWidget(self.btnAngry_3)
+        self.btnSad_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnSad_3.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnSad_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnSad_9.setText("")
-        self.btnSad_9.setObjectName("btnSad_9")
-        self.horizontalLayout_4.addWidget(self.btnSad_9)
-        self.btnDepressed_9 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
-        self.btnDepressed_9.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnDepressed_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnSad_3.setText("")
+        self.btnSad_3.setObjectName("btnSad_3")
+        self.horizontalLayout_4.addWidget(self.btnSad_3)
+        self.btnDepressed_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_4)
+        self.btnDepressed_3.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnDepressed_3.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnDepressed_9.setText("")
-        self.btnDepressed_9.setObjectName("btnDepressed_9")
-        self.horizontalLayout_4.addWidget(self.btnDepressed_9)
-        self.btnNext_4 = QtWidgets.QPushButton(parent=self.EmoExcited)
-        self.btnNext_4.setGeometry(QtCore.QRect(810, 620, 91, 71))
-        self.btnNext_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnDepressed_3.setText("")
+        self.btnDepressed_3.setObjectName("btnDepressed_3")
+        self.horizontalLayout_4.addWidget(self.btnDepressed_3)
+        self.btnNext_6 = QtWidgets.QPushButton(parent=self.EmoExcited)
+        self.btnNext_6.setGeometry(QtCore.QRect(810, 620, 91, 71))
+        self.btnNext_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnNext_4.setText("")
-        self.btnNext_4.setObjectName("btnNext_4")
-        self.btnPre_5 = QtWidgets.QPushButton(parent=self.EmoExcited)
-        self.btnPre_5.setGeometry(QtCore.QRect(10, 620, 91, 71))
-        self.btnPre_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnNext_6.setText("")
+        self.btnNext_6.setObjectName("btnNext_6")
+        self.btnPre_6 = QtWidgets.QPushButton(parent=self.EmoExcited)
+        self.btnPre_6.setGeometry(QtCore.QRect(10, 620, 91, 71))
+        self.btnPre_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnPre_5.setText("")
-        self.btnPre_5.setObjectName("btnPre_5")
+        self.btnPre_6.setText("")
+        self.btnPre_6.setObjectName("btnPre_6")
         self.stackedWidget.addWidget(self.EmoExcited)
         self.EmoLove = QtWidgets.QWidget()
         self.EmoLove.setMaximumSize(QtCore.QSize(906, 750))
@@ -688,76 +694,76 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_5.setSpacing(27)
         self.horizontalLayout_5.setObjectName("horizontalLayout_5")
-        self.btnLove_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnLove_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnLove_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnLove_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnLove_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnLove_10.setText("")
-        self.btnLove_10.setObjectName("btnLove_10")
-        self.horizontalLayout_5.addWidget(self.btnLove_10)
-        self.btnHappy_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnHappy_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnHappy_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_4.setText("")
+        self.btnLove_4.setObjectName("btnLove_4")
+        self.horizontalLayout_5.addWidget(self.btnLove_4)
+        self.btnHappy_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnHappy_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnHappy_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnHappy_10.setText("")
-        self.btnHappy_10.setObjectName("btnHappy_10")
-        self.horizontalLayout_5.addWidget(self.btnHappy_10)
-        self.btnExcited_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnExcited_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnExcited_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnHappy_4.setText("")
+        self.btnHappy_4.setObjectName("btnHappy_4")
+        self.horizontalLayout_5.addWidget(self.btnHappy_4)
+        self.btnExcited_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnExcited_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnExcited_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnExcited_10.setText("")
-        self.btnExcited_10.setObjectName("btnExcited_10")
-        self.horizontalLayout_5.addWidget(self.btnExcited_10)
-        self.btnOkay_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnOkay_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnOkay_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnExcited_4.setText("")
+        self.btnExcited_4.setObjectName("btnExcited_4")
+        self.horizontalLayout_5.addWidget(self.btnExcited_4)
+        self.btnOkay_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnOkay_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnOkay_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnOkay_10.setText("")
-        self.btnOkay_10.setObjectName("btnOkay_10")
-        self.horizontalLayout_5.addWidget(self.btnOkay_10)
-        self.btnAngry_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnAngry_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnAngry_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnOkay_4.setText("")
+        self.btnOkay_4.setObjectName("btnOkay_4")
+        self.horizontalLayout_5.addWidget(self.btnOkay_4)
+        self.btnAngry_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnAngry_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnAngry_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnAngry_10.setText("")
-        self.btnAngry_10.setObjectName("btnAngry_10")
-        self.horizontalLayout_5.addWidget(self.btnAngry_10)
-        self.btnSad_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnSad_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnSad_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnAngry_4.setText("")
+        self.btnAngry_4.setObjectName("btnAngry_4")
+        self.horizontalLayout_5.addWidget(self.btnAngry_4)
+        self.btnSad_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnSad_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnSad_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnSad_10.setText("")
-        self.btnSad_10.setObjectName("btnSad_10")
-        self.horizontalLayout_5.addWidget(self.btnSad_10)
-        self.btnDepressed_10 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
-        self.btnDepressed_10.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnDepressed_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnSad_4.setText("")
+        self.btnSad_4.setObjectName("btnSad_4")
+        self.horizontalLayout_5.addWidget(self.btnSad_4)
+        self.btnDepressed_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_5)
+        self.btnDepressed_4.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnDepressed_4.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnDepressed_10.setText("")
-        self.btnDepressed_10.setObjectName("btnDepressed_10")
-        self.horizontalLayout_5.addWidget(self.btnDepressed_10)
-        self.btnNext_5 = QtWidgets.QPushButton(parent=self.EmoLove)
-        self.btnNext_5.setGeometry(QtCore.QRect(820, 630, 91, 71))
-        self.btnNext_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnDepressed_4.setText("")
+        self.btnDepressed_4.setObjectName("btnDepressed_4")
+        self.horizontalLayout_5.addWidget(self.btnDepressed_4)
+        self.btnNext_7 = QtWidgets.QPushButton(parent=self.EmoLove)
+        self.btnNext_7.setGeometry(QtCore.QRect(820, 630, 91, 71))
+        self.btnNext_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnNext_5.setText("")
-        self.btnNext_5.setObjectName("btnNext_5")
-        self.btnPre_6 = QtWidgets.QPushButton(parent=self.EmoLove)
-        self.btnPre_6.setGeometry(QtCore.QRect(20, 630, 91, 71))
-        self.btnPre_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnNext_7.setText("")
+        self.btnNext_7.setObjectName("btnNext_7")
+        self.btnPre_7 = QtWidgets.QPushButton(parent=self.EmoLove)
+        self.btnPre_7.setGeometry(QtCore.QRect(20, 630, 91, 71))
+        self.btnPre_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnPre_6.setText("")
-        self.btnPre_6.setObjectName("btnPre_6")
+        self.btnPre_7.setText("")
+        self.btnPre_7.setObjectName("btnPre_7")
         self.stackedWidget.addWidget(self.EmoLove)
         self.EmoAngry = QtWidgets.QWidget()
         self.EmoAngry.setMaximumSize(QtCore.QSize(906, 750))
@@ -768,13 +774,13 @@ class Ui_MainWindow(object):
         self.label_18.setText("")
         self.label_18.setPixmap(QtGui.QPixmap("NHOM4/UI\\../Images/cọc.png"))
         self.label_18.setObjectName("label_18")
-        self.btnPre_7 = QtWidgets.QPushButton(parent=self.EmoAngry)
-        self.btnPre_7.setGeometry(QtCore.QRect(10, 620, 91, 71))
-        self.btnPre_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnPre_8 = QtWidgets.QPushButton(parent=self.EmoAngry)
+        self.btnPre_8.setGeometry(QtCore.QRect(10, 620, 91, 71))
+        self.btnPre_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnPre_7.setText("")
-        self.btnPre_7.setObjectName("btnPre_7")
+        self.btnPre_8.setText("")
+        self.btnPre_8.setObjectName("btnPre_8")
         self.horizontalLayoutWidget_6 = QtWidgets.QWidget(parent=self.EmoAngry)
         self.horizontalLayoutWidget_6.setGeometry(QtCore.QRect(170, 490, 561, 80))
         self.horizontalLayoutWidget_6.setObjectName("horizontalLayoutWidget_6")
@@ -782,69 +788,69 @@ class Ui_MainWindow(object):
         self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_6.setSpacing(27)
         self.horizontalLayout_6.setObjectName("horizontalLayout_6")
-        self.btnLove_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnLove_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnLove_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnLove_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnLove_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnLove_11.setText("")
-        self.btnLove_11.setObjectName("btnLove_11")
-        self.horizontalLayout_6.addWidget(self.btnLove_11)
-        self.btnHappy_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnHappy_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnHappy_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_5.setText("")
+        self.btnLove_5.setObjectName("btnLove_5")
+        self.horizontalLayout_6.addWidget(self.btnLove_5)
+        self.btnHappy_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnHappy_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnHappy_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnHappy_11.setText("")
-        self.btnHappy_11.setObjectName("btnHappy_11")
-        self.horizontalLayout_6.addWidget(self.btnHappy_11)
-        self.btnExcited_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnExcited_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnExcited_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnHappy_5.setText("")
+        self.btnHappy_5.setObjectName("btnHappy_5")
+        self.horizontalLayout_6.addWidget(self.btnHappy_5)
+        self.btnExcited_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnExcited_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnExcited_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnExcited_11.setText("")
-        self.btnExcited_11.setObjectName("btnExcited_11")
-        self.horizontalLayout_6.addWidget(self.btnExcited_11)
-        self.btnOkay_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnOkay_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnOkay_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnExcited_5.setText("")
+        self.btnExcited_5.setObjectName("btnExcited_5")
+        self.horizontalLayout_6.addWidget(self.btnExcited_5)
+        self.btnOkay_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnOkay_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnOkay_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnOkay_11.setText("")
-        self.btnOkay_11.setObjectName("btnOkay_11")
-        self.horizontalLayout_6.addWidget(self.btnOkay_11)
-        self.btnAngry_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnAngry_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnAngry_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnOkay_5.setText("")
+        self.btnOkay_5.setObjectName("btnOkay_5")
+        self.horizontalLayout_6.addWidget(self.btnOkay_5)
+        self.btnAngry_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnAngry_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnAngry_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnAngry_11.setText("")
-        self.btnAngry_11.setObjectName("btnAngry_11")
-        self.horizontalLayout_6.addWidget(self.btnAngry_11)
-        self.btnSad_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnSad_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnSad_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnAngry_5.setText("")
+        self.btnAngry_5.setObjectName("btnAngry_5")
+        self.horizontalLayout_6.addWidget(self.btnAngry_5)
+        self.btnSad_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnSad_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnSad_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnSad_11.setText("")
-        self.btnSad_11.setObjectName("btnSad_11")
-        self.horizontalLayout_6.addWidget(self.btnSad_11)
-        self.btnDepressed_11 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
-        self.btnDepressed_11.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnDepressed_11.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnSad_5.setText("")
+        self.btnSad_5.setObjectName("btnSad_5")
+        self.horizontalLayout_6.addWidget(self.btnSad_5)
+        self.btnDepressed_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_6)
+        self.btnDepressed_5.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnDepressed_5.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnDepressed_11.setText("")
-        self.btnDepressed_11.setObjectName("btnDepressed_11")
-        self.horizontalLayout_6.addWidget(self.btnDepressed_11)
-        self.btnNext_6 = QtWidgets.QPushButton(parent=self.EmoAngry)
-        self.btnNext_6.setGeometry(QtCore.QRect(810, 620, 91, 71))
-        self.btnNext_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnDepressed_5.setText("")
+        self.btnDepressed_5.setObjectName("btnDepressed_5")
+        self.horizontalLayout_6.addWidget(self.btnDepressed_5)
+        self.btnNext_8 = QtWidgets.QPushButton(parent=self.EmoAngry)
+        self.btnNext_8.setGeometry(QtCore.QRect(810, 620, 91, 71))
+        self.btnNext_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnNext_6.setText("")
-        self.btnNext_6.setObjectName("btnNext_6")
+        self.btnNext_8.setText("")
+        self.btnNext_8.setObjectName("btnNext_8")
         self.stackedWidget.addWidget(self.EmoAngry)
         self.EmoSad = QtWidgets.QWidget()
         self.EmoSad.setMaximumSize(QtCore.QSize(906, 750))
@@ -862,62 +868,62 @@ class Ui_MainWindow(object):
         self.horizontalLayout_8.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_8.setSpacing(27)
         self.horizontalLayout_8.setObjectName("horizontalLayout_8")
-        self.btnLove_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnLove_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnLove_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnLove_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnLove_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnLove_13.setText("")
-        self.btnLove_13.setObjectName("btnLove_13")
-        self.horizontalLayout_8.addWidget(self.btnLove_13)
-        self.btnHappy_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnHappy_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnHappy_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_6.setText("")
+        self.btnLove_6.setObjectName("btnLove_6")
+        self.horizontalLayout_8.addWidget(self.btnLove_6)
+        self.btnHappy_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnHappy_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnHappy_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnHappy_13.setText("")
-        self.btnHappy_13.setObjectName("btnHappy_13")
-        self.horizontalLayout_8.addWidget(self.btnHappy_13)
-        self.btnExcited_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnExcited_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnExcited_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnHappy_6.setText("")
+        self.btnHappy_6.setObjectName("btnHappy_6")
+        self.horizontalLayout_8.addWidget(self.btnHappy_6)
+        self.btnExcited_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnExcited_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnExcited_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnExcited_13.setText("")
-        self.btnExcited_13.setObjectName("btnExcited_13")
-        self.horizontalLayout_8.addWidget(self.btnExcited_13)
-        self.btnOkay_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnOkay_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnOkay_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnExcited_6.setText("")
+        self.btnExcited_6.setObjectName("btnExcited_6")
+        self.horizontalLayout_8.addWidget(self.btnExcited_6)
+        self.btnOkay_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnOkay_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnOkay_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnOkay_13.setText("")
-        self.btnOkay_13.setObjectName("btnOkay_13")
-        self.horizontalLayout_8.addWidget(self.btnOkay_13)
-        self.btnAngry_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnAngry_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnAngry_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnOkay_6.setText("")
+        self.btnOkay_6.setObjectName("btnOkay_6")
+        self.horizontalLayout_8.addWidget(self.btnOkay_6)
+        self.btnAngry_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnAngry_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnAngry_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnAngry_13.setText("")
-        self.btnAngry_13.setObjectName("btnAngry_13")
-        self.horizontalLayout_8.addWidget(self.btnAngry_13)
-        self.btnSad_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnSad_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnSad_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnAngry_6.setText("")
+        self.btnAngry_6.setObjectName("btnAngry_6")
+        self.horizontalLayout_8.addWidget(self.btnAngry_6)
+        self.btnSad_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnSad_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnSad_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnSad_13.setText("")
-        self.btnSad_13.setObjectName("btnSad_13")
-        self.horizontalLayout_8.addWidget(self.btnSad_13)
-        self.btnDepressed_13 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
-        self.btnDepressed_13.setMinimumSize(QtCore.QSize(50, 50))
-        self.btnDepressed_13.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnSad_6.setText("")
+        self.btnSad_6.setObjectName("btnSad_6")
+        self.horizontalLayout_8.addWidget(self.btnSad_6)
+        self.btnDepressed_6 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_8)
+        self.btnDepressed_6.setMinimumSize(QtCore.QSize(50, 50))
+        self.btnDepressed_6.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnDepressed_13.setText("")
-        self.btnDepressed_13.setObjectName("btnDepressed_13")
-        self.horizontalLayout_8.addWidget(self.btnDepressed_13)
+        self.btnDepressed_6.setText("")
+        self.btnDepressed_6.setObjectName("btnDepressed_6")
+        self.horizontalLayout_8.addWidget(self.btnDepressed_6)
         self.btnNext_9 = QtWidgets.QPushButton(parent=self.EmoSad)
         self.btnNext_9.setGeometry(QtCore.QRect(810, 610, 91, 71))
         self.btnNext_9.setStyleSheet("background-color: rgb(255,128,145,0);\n"
@@ -942,13 +948,13 @@ class Ui_MainWindow(object):
         self.label_20.setText("")
         self.label_20.setPixmap(QtGui.QPixmap("NHOM4/UI\\../Images/skibidi dom dom yes yes.png"))
         self.label_20.setObjectName("label_20")
-        self.btnNext_7 = QtWidgets.QPushButton(parent=self.EmoDepressed)
-        self.btnNext_7.setGeometry(QtCore.QRect(810, 620, 91, 71))
-        self.btnNext_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnNext_10 = QtWidgets.QPushButton(parent=self.EmoDepressed)
+        self.btnNext_10.setGeometry(QtCore.QRect(810, 620, 91, 71))
+        self.btnNext_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnNext_7.setText("")
-        self.btnNext_7.setObjectName("btnNext_7")
+        self.btnNext_10.setText("")
+        self.btnNext_10.setObjectName("btnNext_10")
         self.horizontalLayoutWidget_7 = QtWidgets.QWidget(parent=self.EmoDepressed)
         self.horizontalLayoutWidget_7.setGeometry(QtCore.QRect(170, 490, 561, 80))
         self.horizontalLayoutWidget_7.setObjectName("horizontalLayoutWidget_7")
@@ -956,62 +962,62 @@ class Ui_MainWindow(object):
         self.horizontalLayout_7.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_7.setSpacing(27)
         self.horizontalLayout_7.setObjectName("horizontalLayout_7")
-        self.btnLove_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnLove_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnLove_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnLove_12.setText("")
-        self.btnLove_12.setObjectName("btnLove_12")
-        self.horizontalLayout_7.addWidget(self.btnLove_12)
-        self.btnHappy_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnHappy_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnLove_7.setText("")
+        self.btnLove_7.setObjectName("btnLove_7")
+        self.horizontalLayout_7.addWidget(self.btnLove_7)
+        self.btnHappy_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnHappy_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnHappy_12.setText("")
-        self.btnHappy_12.setObjectName("btnHappy_12")
-        self.horizontalLayout_7.addWidget(self.btnHappy_12)
-        self.btnExcited_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnExcited_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnHappy_7.setText("")
+        self.btnHappy_7.setObjectName("btnHappy_7")
+        self.horizontalLayout_7.addWidget(self.btnHappy_7)
+        self.btnExcited_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnExcited_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnExcited_12.setText("")
-        self.btnExcited_12.setObjectName("btnExcited_12")
-        self.horizontalLayout_7.addWidget(self.btnExcited_12)
-        self.btnOkay_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnOkay_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnExcited_7.setText("")
+        self.btnExcited_7.setObjectName("btnExcited_7")
+        self.horizontalLayout_7.addWidget(self.btnExcited_7)
+        self.btnOkay_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnOkay_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnOkay_12.setText("")
-        self.btnOkay_12.setObjectName("btnOkay_12")
-        self.horizontalLayout_7.addWidget(self.btnOkay_12)
-        self.btnAngry_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnAngry_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnOkay_7.setText("")
+        self.btnOkay_7.setObjectName("btnOkay_7")
+        self.horizontalLayout_7.addWidget(self.btnOkay_7)
+        self.btnAngry_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnAngry_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnAngry_12.setText("")
-        self.btnAngry_12.setObjectName("btnAngry_12")
-        self.horizontalLayout_7.addWidget(self.btnAngry_12)
-        self.btnSad_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnSad_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnAngry_7.setText("")
+        self.btnAngry_7.setObjectName("btnAngry_7")
+        self.horizontalLayout_7.addWidget(self.btnAngry_7)
+        self.btnSad_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnSad_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnSad_12.setText("")
-        self.btnSad_12.setObjectName("btnSad_12")
-        self.horizontalLayout_7.addWidget(self.btnSad_12)
-        self.btnDepressed_12 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
-        self.btnDepressed_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnSad_7.setText("")
+        self.btnSad_7.setObjectName("btnSad_7")
+        self.horizontalLayout_7.addWidget(self.btnSad_7)
+        self.btnDepressed_7 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_7)
+        self.btnDepressed_7.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnDepressed_12.setText("")
-        self.btnDepressed_12.setObjectName("btnDepressed_12")
-        self.horizontalLayout_7.addWidget(self.btnDepressed_12)
-        self.btnPre_8 = QtWidgets.QPushButton(parent=self.EmoDepressed)
-        self.btnPre_8.setGeometry(QtCore.QRect(10, 620, 91, 71))
-        self.btnPre_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnDepressed_7.setText("")
+        self.btnDepressed_7.setObjectName("btnDepressed_7")
+        self.horizontalLayout_7.addWidget(self.btnDepressed_7)
+        self.btnPre_10 = QtWidgets.QPushButton(parent=self.EmoDepressed)
+        self.btnPre_10.setGeometry(QtCore.QRect(10, 620, 91, 71))
+        self.btnPre_10.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnPre_8.setText("")
-        self.btnPre_8.setObjectName("btnPre_8")
+        self.btnPre_10.setText("")
+        self.btnPre_10.setObjectName("btnPre_10")
         self.stackedWidget.addWidget(self.EmoDepressed)
         self.Diary = QtWidgets.QWidget()
         self.Diary.setMaximumSize(QtCore.QSize(906, 750))
@@ -1028,13 +1034,13 @@ class Ui_MainWindow(object):
 "color: rgb(0,0,0);\n"
 "border:None;")
         self.txtDiary.setObjectName("txtDiary")
-        self.btnNext_8 = QtWidgets.QPushButton(parent=self.Diary)
-        self.btnNext_8.setGeometry(QtCore.QRect(820, 620, 91, 71))
-        self.btnNext_8.setStyleSheet("background-color: rgb(255,128,145,0);\n"
+        self.btnNext_12 = QtWidgets.QPushButton(parent=self.Diary)
+        self.btnNext_12.setGeometry(QtCore.QRect(820, 620, 91, 71))
+        self.btnNext_12.setStyleSheet("background-color: rgb(255,128,145,0);\n"
 "color: rgb(0,0,0);\n"
 "border:None;")
-        self.btnNext_8.setText("")
-        self.btnNext_8.setObjectName("btnNext_8")
+        self.btnNext_12.setText("")
+        self.btnNext_12.setObjectName("btnNext_12")
         self.stackedWidget.addWidget(self.Diary)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)

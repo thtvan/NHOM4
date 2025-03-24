@@ -995,24 +995,6 @@ border:None;</string>
        <height>750</height>
       </size>
      </property>
-     <widget class="QPushButton" name="btnAdd_4">
-      <property name="geometry">
-       <rect>
-        <x>110</x>
-        <y>70</y>
-        <width>81</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="lineAdd_7">
       <property name="geometry">
        <rect>
@@ -1114,7 +1096,6 @@ border:None;</string>
       </property>
      </widget>
      <zorder>label_13</zorder>
-     <zorder>btnAdd_4</zorder>
      <zorder>lineAdd_7</zorder>
      <zorder>lineAdd_8</zorder>
      <zorder>lineAdd_9</zorder>
@@ -1291,6 +1272,42 @@ border:None;</string>
        </item>
       </layout>
      </widget>
+     <widget class="QPushButton" name="btnNext_4">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>620</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPre_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>620</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="EmoHappy">
      <property name="maximumSize">
@@ -1335,7 +1352,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_8">
+        <widget class="QPushButton" name="btnLove_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1353,7 +1370,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHappy_8">
+        <widget class="QPushButton" name="btnHappy_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1371,7 +1388,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnExcited_8">
+        <widget class="QPushButton" name="btnExcited_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1389,7 +1406,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_8">
+        <widget class="QPushButton" name="btnOkay_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1407,7 +1424,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnAngry_8">
+        <widget class="QPushButton" name="btnAngry_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1425,7 +1442,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnSad_8">
+        <widget class="QPushButton" name="btnSad_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1443,7 +1460,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_8">
+        <widget class="QPushButton" name="btnDepressed_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1462,7 +1479,7 @@ border:None;</string>
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="btnPre_4">
+     <widget class="QPushButton" name="btnPre_5">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1480,7 +1497,7 @@ border:None;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnNext_3">
+     <widget class="QPushButton" name="btnNext_5">
       <property name="geometry">
        <rect>
         <x>820</x>
@@ -1542,7 +1559,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_9">
+        <widget class="QPushButton" name="btnLove_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1560,7 +1577,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHappy_9">
+        <widget class="QPushButton" name="btnHappy_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1578,7 +1595,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnExcited_9">
+        <widget class="QPushButton" name="btnExcited_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1596,7 +1613,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_9">
+        <widget class="QPushButton" name="btnOkay_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1614,7 +1631,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnAngry_9">
+        <widget class="QPushButton" name="btnAngry_3">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -1626,7 +1643,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnSad_9">
+        <widget class="QPushButton" name="btnSad_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1644,7 +1661,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_9">
+        <widget class="QPushButton" name="btnDepressed_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1663,7 +1680,7 @@ border:None;</string>
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="btnNext_4">
+     <widget class="QPushButton" name="btnNext_6">
       <property name="geometry">
        <rect>
         <x>810</x>
@@ -1681,7 +1698,7 @@ border:None;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnPre_5">
+     <widget class="QPushButton" name="btnPre_6">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -1743,7 +1760,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_10">
+        <widget class="QPushButton" name="btnLove_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1761,7 +1778,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHappy_10">
+        <widget class="QPushButton" name="btnHappy_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1779,7 +1796,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnExcited_10">
+        <widget class="QPushButton" name="btnExcited_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1797,7 +1814,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_10">
+        <widget class="QPushButton" name="btnOkay_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1815,7 +1832,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnAngry_10">
+        <widget class="QPushButton" name="btnAngry_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1833,7 +1850,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnSad_10">
+        <widget class="QPushButton" name="btnSad_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1851,7 +1868,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_10">
+        <widget class="QPushButton" name="btnDepressed_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1870,7 +1887,7 @@ border:None;</string>
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="btnNext_5">
+     <widget class="QPushButton" name="btnNext_7">
       <property name="geometry">
        <rect>
         <x>820</x>
@@ -1888,7 +1905,7 @@ border:None;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnPre_6">
+     <widget class="QPushButton" name="btnPre_7">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1936,7 +1953,7 @@ border:None;</string>
        <pixmap>../Images/cọc.png</pixmap>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnPre_7">
+     <widget class="QPushButton" name="btnPre_8">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -1968,7 +1985,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_11">
+        <widget class="QPushButton" name="btnLove_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1986,7 +2003,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHappy_11">
+        <widget class="QPushButton" name="btnHappy_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2004,7 +2021,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnExcited_11">
+        <widget class="QPushButton" name="btnExcited_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2022,7 +2039,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_11">
+        <widget class="QPushButton" name="btnOkay_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2040,7 +2057,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnAngry_11">
+        <widget class="QPushButton" name="btnAngry_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2058,7 +2075,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnSad_11">
+        <widget class="QPushButton" name="btnSad_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2076,7 +2093,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_11">
+        <widget class="QPushButton" name="btnDepressed_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2095,7 +2112,7 @@ border:None;</string>
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="btnNext_6">
+     <widget class="QPushButton" name="btnNext_8">
       <property name="geometry">
        <rect>
         <x>810</x>
@@ -2157,7 +2174,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_13">
+        <widget class="QPushButton" name="btnLove_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2175,7 +2192,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHappy_13">
+        <widget class="QPushButton" name="btnHappy_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2193,7 +2210,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnExcited_13">
+        <widget class="QPushButton" name="btnExcited_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2211,7 +2228,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_13">
+        <widget class="QPushButton" name="btnOkay_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2229,7 +2246,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnAngry_13">
+        <widget class="QPushButton" name="btnAngry_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2247,7 +2264,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnSad_13">
+        <widget class="QPushButton" name="btnSad_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2265,7 +2282,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_13">
+        <widget class="QPushButton" name="btnDepressed_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2350,7 +2367,7 @@ border:None;</string>
        <pixmap>../Images/skibidi dom dom yes yes.png</pixmap>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnNext_7">
+     <widget class="QPushButton" name="btnNext_10">
       <property name="geometry">
        <rect>
         <x>810</x>
@@ -2382,7 +2399,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_12">
+        <widget class="QPushButton" name="btnLove_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2394,7 +2411,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHappy_12">
+        <widget class="QPushButton" name="btnHappy_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2406,7 +2423,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnExcited_12">
+        <widget class="QPushButton" name="btnExcited_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2418,7 +2435,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_12">
+        <widget class="QPushButton" name="btnOkay_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2430,7 +2447,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnAngry_12">
+        <widget class="QPushButton" name="btnAngry_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2442,7 +2459,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnSad_12">
+        <widget class="QPushButton" name="btnSad_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2454,7 +2471,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_12">
+        <widget class="QPushButton" name="btnDepressed_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2467,7 +2484,7 @@ border:None;</string>
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="btnPre_8">
+     <widget class="QPushButton" name="btnPre_10">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -2530,7 +2547,7 @@ color: rgb(0,0,0);
 border:None;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnNext_8">
+     <widget class="QPushButton" name="btnNext_12">
       <property name="geometry">
        <rect>
         <x>820</x>
