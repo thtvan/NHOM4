@@ -80,7 +80,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/LOGO.png</pixmap>
+       <pixmap>NHOM4/Images/LOGO.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton">
@@ -133,7 +133,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Chọn.png</pixmap>
+       <pixmap>NHOM4/Images/Chọn.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnYes">
@@ -197,7 +197,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Màn log in.png</pixmap>
+       <pixmap>NHOM4/Images/Màn log in.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnLogIn">
@@ -292,7 +292,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Màn sign in.png</pixmap>
+       <pixmap>NHOM4/Images/Màn sign in.png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineUserName">
@@ -384,7 +384,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/giới thiệu - công việc.png</pixmap>
+       <pixmap>NHOM4/Images/giới thiệu - công việc.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext">
@@ -432,7 +432,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/giới thiệu - nky tam trang.png</pixmap>
+       <pixmap>NHOM4/Images/giới thiệu - nky tam trang.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext_2">
@@ -480,7 +480,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/giới thịu thần số học.png</pixmap>
+       <pixmap>NHOM4/Images/giới thịu thần số học.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext_11">
@@ -528,7 +528,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/nhập ngày sinh.png</pixmap>
+       <pixmap>NHOM4/Images/nhập ngày sinh.png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="day">
@@ -620,7 +620,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/màn hình chính.png</pixmap>
+       <pixmap>NHOM4/Images/màn hình chính.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnChooseToDoList">
@@ -715,7 +715,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm.png</pixmap>
+       <pixmap>NHOM4/Images/Việc cần làm.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnAdd">
@@ -829,7 +829,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm (2).png</pixmap>
+       <pixmap>NHOM4/Images/Việc cần làm (2).png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineAdd_3">
@@ -945,7 +945,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm (3).png</pixmap>
+       <pixmap>NHOM4/Images/Việc cần làm (3).png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineAdd_6">
@@ -1029,7 +1029,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm (4).png</pixmap>
+       <pixmap>NHOM4/Images/Việc cần làm (4).png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineAdd_8">
@@ -1128,7 +1128,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Ổn.png</pixmap>
+       <pixmap>NHOM4/Images/Ổn.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget">
@@ -1335,7 +1335,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Dui.png</pixmap>
+       <pixmap>NHOM4/Images/Dui.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_3">
@@ -1542,7 +1542,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Hào hứng.png</pixmap>
+       <pixmap>NHOM4/Images/Hào hứng.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_4">
@@ -1743,7 +1743,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/iu đời.png</pixmap>
+       <pixmap>NHOM4/Images/iu đời.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_5">
@@ -1950,7 +1950,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/cọc.png</pixmap>
+       <pixmap>NHOM4/Images/cọc.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnPre_8">
@@ -2157,7 +2157,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/buồn ó.png</pixmap>
+       <pixmap>NHOM4/Images/buồn ó.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_8">
@@ -2364,7 +2364,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/skibidi dom dom yes yes.png</pixmap>
+       <pixmap>NHOM4/Images/skibidi dom dom yes yes.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext_10">
@@ -2529,7 +2529,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/21.png</pixmap>
+       <pixmap>NHOM4/Images/21.png</pixmap>
       </property>
      </widget>
      <widget class="QTextEdit" name="txtDiary">

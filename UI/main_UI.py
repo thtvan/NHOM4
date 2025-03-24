@@ -114,6 +114,7 @@ class MainApp(QtWidgets.QMainWindow):
     def switch_to_birthday(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.Birthday)
 
+
     def switch_to_list1(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.ToDoList)
 
@@ -125,6 +126,7 @@ class MainApp(QtWidgets.QMainWindow):
 
     def switch_to_list4(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.ToDoList_4)
+
 
     def switch_to_EmoOkay(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.EmoOkay)
