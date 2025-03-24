@@ -21,7 +21,7 @@ def tinh_so_chu_dao(ngay: int, thang: int, nam: int) -> int:
 def lay_cau_quote(so_chu_dao: int) -> str:
     """Lấy câu quote phù hợp với số chủ đạo."""
     try:
-        with open("cau_quotes.json", "r", encoding="utf-8") as file:
+        with open("Cac_cau_quotes.json", "r", encoding="utf-8") as file:
             quotes = json.load(file)
 
         # Lấy danh sách quote cho số chủ đạo

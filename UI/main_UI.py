@@ -1,5 +1,5 @@
 from PyQt6 import QtWidgets
-from NHOM4.UI.App_UI import Ui_MainWindow
+from App_UI import Ui_MainWindow
 
 import sys
 
