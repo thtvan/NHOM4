@@ -33,16 +33,18 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnAdd_2.clicked.connect(self.switch_to_list3)
         self.ui.btnAdd_3.clicked.connect(self.switch_to_list4)
 
-        #các nút để chuyển về main
-        main_buttons = [self.btnLogIn, self.btnDone, self.btnNext_8, self.btnPre, self.btnPre_4, self.btnPre_5, self.btnPre_5, self.btnPre_6, self.btnPre_7, self.btnPre_8, self.btnPre_9, self.btnPre_10]
-        # Kết nối các button trong danh sách với cùng một hành động
+        # các nút để chuyển về main
+        main_buttons = [self.ui.btnLogIn, self.ui.btnDone, self.ui.btnNext_8, self.ui.btnPre, self.ui.btnPre_4,
+                        self.ui.btnPre_5, self.ui.btnPre_6, self.ui.btnPre_7, self.ui.btnPre_8, self.ui.btnPre_9,
+                        self.ui.btnPre_10]
         for btn in main_buttons:
-            btn.clicked.connect(self.stackedWidget.switch_to_main)
+            btn.clicked.connect(self.switch_to_main)  # ✅ Gọi đúng phương thức trong MainApp
 
         # các nút để chuyển về diary
-        main_buttons = [self.btnChooseDiary, self.btnNext_4, self.btnNext_5, self.btnNext_6, self.btnNext_7, self.btnNext_8, self.btnNext_9, self.btnNext_10]
-        for btn in main_buttons:
-            btn.clicked.connect(self.stackedWidget.switch_to_diary)
+        diary_buttons = [self.ui.btnChooseDiary, self.ui.btnNext_4, self.ui.btnNext_5, self.ui.btnNext_6,
+                         self.ui.btnNext_7, self.ui.btnNext_8, self.ui.btnNext_9, self.ui.btnNext_10]
+        for btn in diary_buttons:
+            btn.clicked.connect(self.switch_to_list1)  # ✅ Chuyển về màn hình ToDoList hoặc màn nhật ký thích hợp
 
         # Lấy danh sách tất cả các nút có tên bắt đầu bằng "btnOkay"
         self.okay_btn = [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnOkay")]
