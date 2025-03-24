@@ -22,7 +22,7 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnNext_2.clicked.connect(self.switch_to_gthieu3)   # Từ Gthieu2 -> Gthieu3
         self.ui.btnNext_11.clicked.connect(self.switch_to_birthday)   # Từ Gthieu3 -> birthday
 
-
+        self.ui.btnChooseDiary.clicked.connect(self.switch_to_EmoOkay)
         self.ui.btnChooseToDoList.clicked.connect(self.switch_to_list1)
 
         self.ui.btnPre_2.clicked.connect(self.switch_to_list1)
@@ -58,13 +58,12 @@ class MainApp(QtWidgets.QMainWindow):
             btn.clicked.connect(self.switch_to_EmoHappy)
 
 
-        self.ui.btnExcited.clicked.connect(self.switch_to_EmoExcited)
         self.excited_btn = [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnExcited")]
         for btn in self.excited_btn:
             btn.clicked.connect(self.switch_to_EmoExcited)
 
 
-        self.love_btn= [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnLove")]
+        self.love_btn = [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnLove")]
         for btn in self.love_btn:
             btn.clicked.connect(self.switch_to_EmoLove)
 
