@@ -1,6 +1,6 @@
 from PyQt6 import QtWidgets
 from App_UI import Ui_MainWindow
-
+from Random_quotes import get_quote_from_ui
 import sys
 
 class MainApp(QtWidgets.QMainWindow):
@@ -41,6 +41,8 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnAdd.clicked.connect(self.switch_to_list2)
         self.ui.btnAdd_2.clicked.connect(self.switch_to_list3)
         self.ui.btnAdd_3.clicked.connect(self.switch_to_list4)
+
+        self.ui.btnDone.clicked.connect(self.hien_thi_quote)
 
         # các nút để chuyển về main
         main_buttons = [self.ui.btnLogIn, self.ui.btnDone, self.ui.btnNext_8, self.ui.btnPre, self.ui.btnPre_4,
@@ -162,6 +164,18 @@ class MainApp(QtWidgets.QMainWindow):
 
     def switch_to_Diary(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.Diary)
+
+    def hien_thi_quote(self):
+        # Lấy dữ liệu từ giao diện
+        ngay = self.ui.day.text().strip()
+        thang = self.ui.month.text().strip()
+        nam = self.ui.year.text().strip()
+
+        # Gọi hàm xử lý từ `Random_quotes.py`
+        quote = get_quote_from_ui(ngay, thang, nam)
+
+        # Hiển thị câu quote lên `lineQuote`
+        self.ui.lineQuote.setText(quote)
 
 
 if __name__ == "__main__":

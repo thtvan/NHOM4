@@ -21,7 +21,7 @@ def tinh_so_chu_dao(ngay: int, thang: int, nam: int) -> int:
 def lay_cau_quote(so_chu_dao: int) -> str:
     """Lấy câu quote phù hợp với số chủ đạo."""
     try:
-        with open("cau_quotes.json", "r", encoding="utf-8") as file:
+        with open("Cac_cau_quotes.json", "r", encoding="utf-8") as file:
             quotes = json.load(file)
 
         # Lấy danh sách quote cho số chủ đạo
@@ -35,21 +35,21 @@ def lay_cau_quote(so_chu_dao: int) -> str:
     except json.JSONDecodeError:
         return "Lỗi đọc dữ liệu từ file quotes.json."
 
+def get_quote_from_ui(ngay: str, thang: str, nam: str) -> str:
+    """Lấy số chủ đạo và câu quote từ ngày sinh nhập trên giao diện."""
+    try:
+        # Chuyển đổi sang số nguyên
+        ngay, thang, nam = int(ngay), int(thang), int(nam)
 
-# Nhập ngày sinh từ người dùng
-try:
-    nam_hien_tai = datetime.now().year
-    ngay = int(input("Nhập ngày sinh (1-31): "))
-    thang = int(input("Nhập tháng sinh (1-12): "))
-    nam = int(input(f"Nhập năm sinh (1000-{nam_hien_tai}): "))
+        # Kiểm tra tính hợp lệ
+        nam_hien_tai = datetime.now().year
+        if not (1 <= ngay <= 31 and 1 <= thang <= 12 and 1000 <= nam <= nam_hien_tai):
+            return "Ngày tháng năm không hợp lệ!"
 
-    if not (1 <= ngay <= 31 and 1 <= thang <= 12 and 1000 <= nam <= nam_hien_tai):
-        raise ValueError("Ngày tháng năm không hợp lệ!")
+        # Tính số chủ đạo
+        so_chu_dao = tinh_so_chu_dao(ngay, thang, nam)
 
-    so_chu_dao = tinh_so_chu_dao(ngay, thang, nam)
-    cau_quote = lay_cau_quote(so_chu_dao)
-
-    print(f"Con số chủ đạo của {ngay}/{thang}/{nam} là: {so_chu_dao}")
-    print(f"Quote hôm nay: {cau_quote}")
-except ValueError:
-    print("Vui lòng nhập ngày tháng năm hợp lệ!")
+        # Lấy câu quote
+        return lay_cau_quote(so_chu_dao)
+    except ValueError:
+        return "Vui lòng nhập số hợp lệ!"
