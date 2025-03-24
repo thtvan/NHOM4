@@ -9,8 +9,8 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        # Đặt kích thước cửa sổ nhỏ hơn
-        self.setFixedSize(906, 750)  # Kích thước cố định
+        # Đặt kích thước cửa sổ cố định
+        self.setFixedSize(906, 750)
 
         # Kết nối các nút với chức năng tương ứng
         self.ui.pushButton.clicked.connect(self.switch_to_askTK)  # Từ Logo -> AskTK
