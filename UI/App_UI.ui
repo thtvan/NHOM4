@@ -42,7 +42,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>20</number>
     </property>
     <widget class="QWidget" name="logo">
      <property name="maximumSize">
@@ -262,7 +262,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -283,7 +283,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -347,7 +347,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -362,7 +362,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -377,7 +377,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -457,7 +457,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -475,7 +475,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 font: 75 14pt &quot;MTD Balerno Bold&quot;;
 color: rgb(255,255,255);
 border:None;</string>
@@ -524,7 +524,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -542,7 +542,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 font: 75 14pt &quot;MTD Balerno Bold&quot;;
 color: rgb(255,255,255);
 border:None;</string>
@@ -591,7 +591,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -609,7 +609,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 font: 75 14pt &quot;MTD Balerno Bold&quot;;
 color: rgb(255,255,255);
 border:None;</string>
@@ -720,7 +720,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 font: 75 14pt &quot;MTD Balerno Bold&quot;;
 color: rgb(78,0,129);
 border:None;</string>
@@ -769,7 +769,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -787,7 +787,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -812,7 +812,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -864,7 +864,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -883,7 +883,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -897,7 +897,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -923,7 +923,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -942,7 +942,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -979,7 +979,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -993,7 +993,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1024,7 +1024,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1043,7 +1043,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1058,7 +1058,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1095,7 +1095,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1109,7 +1109,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1142,7 +1142,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1179,7 +1179,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1194,7 +1194,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1209,7 +1209,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1223,7 +1223,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1289,7 +1289,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1307,7 +1307,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1325,7 +1325,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1343,7 +1343,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1361,7 +1361,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1379,7 +1379,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1397,7 +1397,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1418,7 +1418,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1436,7 +1436,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1496,7 +1496,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1514,7 +1514,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1532,7 +1532,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1550,7 +1550,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1568,7 +1568,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1586,7 +1586,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1604,7 +1604,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1625,7 +1625,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1643,7 +1643,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1703,7 +1703,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1721,7 +1721,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1732,8 +1732,14 @@ border:None;</string>
        </item>
        <item>
         <widget class="QPushButton" name="btnAngry_3">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1751,7 +1757,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1769,7 +1775,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1787,7 +1793,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1805,7 +1811,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color:transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1826,7 +1832,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1844,7 +1850,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -1904,7 +1910,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1922,7 +1928,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1940,7 +1946,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1958,7 +1964,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1976,7 +1982,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -1994,7 +2000,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2012,7 +2018,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2033,7 +2039,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2051,7 +2057,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2099,7 +2105,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2129,7 +2135,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2147,7 +2153,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2165,7 +2171,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2183,7 +2189,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2201,7 +2207,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2219,7 +2225,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2237,7 +2243,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2258,7 +2264,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2318,7 +2324,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2336,7 +2342,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2354,7 +2360,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2372,7 +2378,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2390,7 +2396,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2408,7 +2414,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2426,7 +2432,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2447,7 +2453,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2465,7 +2471,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2513,7 +2519,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2543,7 +2549,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2561,7 +2567,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2579,7 +2585,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2597,7 +2603,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2615,7 +2621,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2633,7 +2639,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2651,7 +2657,7 @@ border:None;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
+          <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
          </property>
@@ -2672,7 +2678,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
@@ -2721,7 +2727,7 @@ border:None;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
-color: rgb(255,255255,255);
+color: rgb(255,255,255);
 border:None;</string>
       </property>
      </widget>
@@ -2735,7 +2741,7 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
+       <string notr="true">background-color: transparent;
 color: rgb(0,0,0);
 border:None;</string>
       </property>
