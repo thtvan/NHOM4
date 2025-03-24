@@ -61,7 +61,6 @@ class MainApp(QtWidgets.QMainWindow):
         for btn in self.okay_btn:
             btn.clicked.connect(self.switch_to_EmoOkay)
 
-
         self.happy_btn = [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnHappy")]
         for btn in self.happy_btn:
             btn.clicked.connect(self.switch_to_EmoHappy)
