@@ -12,7 +12,7 @@ class MainApp(QtWidgets.QMainWindow):
         # Đặt kích thước cửa sổ cố định
         self.setFixedSize(906, 750)
 
-        # Kết nối các nút với chức năng tương ứng
+        # Kết nối các nút chuyển các màn
         self.ui.pushButton.clicked.connect(self.switch_to_askTK)  # Từ Logo -> AskTK
         self.ui.btnYes.clicked.connect(self.switch_to_signup)     # Từ AskTK -> SignUp
         self.ui.btnNo.clicked.connect(self.switch_to_login)       # Từ AskTK -> LogIn
