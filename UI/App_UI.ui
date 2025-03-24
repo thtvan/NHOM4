@@ -80,7 +80,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/LOGO.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/LOGO.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton">
@@ -133,7 +133,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Chọn.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Chọn.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnYes">
@@ -170,6 +170,25 @@ border:None;</string>
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="btnQuay">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(78,0,129);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="LogIn">
      <property name="maximumSize">
@@ -197,7 +216,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Màn log in.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Màn log in.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnLogIn">
@@ -238,9 +257,12 @@ border:None;</string>
         <height>91</height>
        </size>
       </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -260,9 +282,28 @@ border:None;</string>
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuay_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(78,0,129);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
       </property>
      </widget>
     </widget>
@@ -292,7 +333,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Màn sign in.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Màn sign in.png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineUserName">
@@ -305,8 +346,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -320,8 +361,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -335,8 +376,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -355,6 +396,25 @@ border:None;</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuay_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(78,0,129);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
       </property>
      </widget>
     </widget>
@@ -384,7 +444,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/giới thiệu - công việc.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/giới thiệu - công việc.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext">
@@ -403,6 +463,25 @@ border:None;</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuay_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(255,255,255);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
       </property>
      </widget>
     </widget>
@@ -432,7 +511,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/giới thiệu - nky tam trang.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/giới thiệu - nky tam trang.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext_2">
@@ -451,6 +530,25 @@ border:None;</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuay_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(255,255,255);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
       </property>
      </widget>
     </widget>
@@ -480,7 +578,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/giới thịu thần số học.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/giới thịu thần số học.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext_11">
@@ -499,6 +597,25 @@ border:None;</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuay_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(255,255,255);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
       </property>
      </widget>
     </widget>
@@ -528,7 +645,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/nhập ngày sinh.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/nhập ngày sinh.png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="day">
@@ -541,8 +658,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -556,8 +673,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -571,8 +688,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -591,6 +708,25 @@ border:None;</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuay_7">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>100</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,128,145,0);
+font: 75 14pt &quot;MTD Balerno Bold&quot;;
+color: rgb(78,0,129);
+border:None;</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
       </property>
      </widget>
     </widget>
@@ -620,7 +756,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/màn hình chính.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/màn hình chính.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnChooseToDoList">
@@ -675,8 +811,8 @@ border:None;</string>
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -715,7 +851,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Việc cần làm.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnAdd">
@@ -746,8 +882,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -805,8 +941,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -829,7 +965,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm (2).png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Việc cần làm (2).png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineAdd_3">
@@ -842,8 +978,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -906,8 +1042,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -921,8 +1057,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -945,7 +1081,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm (3).png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Việc cần làm (3).png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineAdd_6">
@@ -958,8 +1094,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1005,8 +1141,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1029,7 +1165,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Việc cần làm (4).png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Việc cần làm (4).png</pixmap>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineAdd_8">
@@ -1042,8 +1178,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1057,8 +1193,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1072,8 +1208,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>
@@ -1128,7 +1264,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Ổn.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Ổn.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget">
@@ -1145,7 +1281,61 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove">
+        <widget class="QPushButton" name="btnDepressed">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSad">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAngry">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1199,61 +1389,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnSad">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnDepressed">
+        <widget class="QPushButton" name="btnLove">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1335,7 +1471,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Dui.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Dui.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_3">
@@ -1352,7 +1488,61 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_2">
+        <widget class="QPushButton" name="btnDepressed_2">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSad_2">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAngry_2">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1406,61 +1596,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_2">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry_2">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnSad_2">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnDepressed_2">
+        <widget class="QPushButton" name="btnLove_2">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1542,7 +1678,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/Hào hứng.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/Hào hứng.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_4">
@@ -1559,7 +1695,55 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_3">
+        <widget class="QPushButton" name="btnDepressed_3">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSad_3">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAngry_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1613,55 +1797,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_3">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry_3">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnSad_3">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnDepressed_3">
+        <widget class="QPushButton" name="btnLove_3">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1743,7 +1879,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/iu đời.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/iu đời.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_5">
@@ -1760,7 +1896,61 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_4">
+        <widget class="QPushButton" name="btnDepressed_4">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSad_4">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAngry_4">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1814,61 +2004,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_4">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry_4">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnSad_4">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnDepressed_4">
+        <widget class="QPushButton" name="btnLove_4">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -1950,7 +2086,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/cọc.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/cọc.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnPre_8">
@@ -1985,7 +2121,61 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_5">
+        <widget class="QPushButton" name="btnDepressed_5">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSad_5">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAngry_5">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2039,61 +2229,7 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnOkay_5">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry_5">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnSad_5">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnDepressed_5">
+        <widget class="QPushButton" name="btnLove_5">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2157,7 +2293,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/buồn ó.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/buồn ó.png</pixmap>
       </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_8">
@@ -2174,79 +2310,7 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_6">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnHappy_6">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnExcited_6">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnOkay_6">
-         <property name="minimumSize">
-          <size>
-           <width>50</width>
-           <height>50</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry_6">
+        <widget class="QPushButton" name="btnDepressed_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2282,7 +2346,79 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_6">
+        <widget class="QPushButton" name="btnAngry_6">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay_6">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnExcited_6">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnHappy_6">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnLove_6">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -2364,7 +2500,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/skibidi dom dom yes yes.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/skibidi dom dom yes yes.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="btnNext_10">
@@ -2399,55 +2535,13 @@ border:None;</string>
         <number>27</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnLove_7">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
+        <widget class="QPushButton" name="btnDepressed_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
          </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnHappy_7">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnExcited_7">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnOkay_7">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
-border:None;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnAngry_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2460,6 +2554,12 @@ border:None;</string>
        </item>
        <item>
         <widget class="QPushButton" name="btnSad_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2471,7 +2571,85 @@ border:None;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnDepressed_7">
+        <widget class="QPushButton" name="btnAngry_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOkay_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnHappy_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnExcited_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255,128,145,0);
+color: rgb(0,0,0);
+border:None;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnLove_7">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255,128,145,0);
 color: rgb(0,0,0);
@@ -2529,7 +2707,7 @@ border:None;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../Images/21.png</pixmap>
+       <pixmap>../../Test/NHOM4/Images/21.png</pixmap>
       </property>
      </widget>
      <widget class="QTextEdit" name="txtDiary">
@@ -2542,8 +2720,8 @@ border:None;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255,128,145,0);
-color: rgb(0,0,0);
+       <string notr="true">background-color: transparent;
+color: rgb(255,255255,255);
 border:None;</string>
       </property>
      </widget>

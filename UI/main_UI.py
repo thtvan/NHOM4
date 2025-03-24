@@ -22,6 +22,15 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnNext_2.clicked.connect(self.switch_to_gthieu3)   # Từ Gthieu2 -> Gthieu3
         self.ui.btnNext_11.clicked.connect(self.switch_to_birthday)   # Từ Gthieu3 -> birthday
 
+        self.ui.btnQuay.clicked.connect(self.switch_to_Logo)
+        self.ui.btnQuay_2.clicked.connect(self.switch_to_askTK)
+        self.ui.btnQuay_3.clicked.connect(self.switch_to_askTK)
+        self.ui.btnQuay_4.clicked.connect(self.switch_to_signup)
+        self.ui.btnQuay_5.clicked.connect(self.switch_to_gthieu1)
+        self.ui.btnQuay_6.clicked.connect(self.switch_to_gthieu2)
+        self.ui.btnQuay_7.clicked.connect(self.switch_to_gthieu3)
+
+
         self.ui.btnChooseDiary.clicked.connect(self.switch_to_EmoOkay)
         self.ui.btnChooseToDoList.clicked.connect(self.switch_to_list1)
 
@@ -82,6 +91,8 @@ class MainApp(QtWidgets.QMainWindow):
             btn.clicked.connect(self.switch_to_EmoDepressed)
 
 
+    def switch_to_Logo(self):
+        self.ui.stackedWidget.setCurrentWidget(self.ui.logo)
 
     def switch_to_askTK(self):
         """Chuyển từ logo sang màn hình askTK"""
