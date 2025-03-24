@@ -36,22 +36,21 @@ class MainApp(QtWidgets.QMainWindow):
         # các nút để chuyển về main
         main_buttons = [self.ui.btnLogIn, self.ui.btnDone, self.ui.btnNext_8, self.ui.btnPre, self.ui.btnPre_4,
                         self.ui.btnPre_5, self.ui.btnPre_6, self.ui.btnPre_7, self.ui.btnPre_8, self.ui.btnPre_9,
-                        self.ui.btnPre_10]
+                        self.ui.btnPre_10, self.ui.btn_Pre, self.ui.btnNext_12]
         for btn in main_buttons:
-            btn.clicked.connect(self.switch_to_main)  # ✅ Gọi đúng phương thức trong MainApp
+            btn.clicked.connect(self.switch_to_main)
 
-        # các nút để chuyển về diary
-        diary_buttons = [self.ui.btnChooseDiary, self.ui.btnNext_4, self.ui.btnNext_5, self.ui.btnNext_6,
+        #các nút để chuyển về diary
+        diary_buttons = [self.ui.btnNext_4, self.ui.btnNext_5, self.ui.btnNext_6,
                          self.ui.btnNext_7, self.ui.btnNext_8, self.ui.btnNext_9, self.ui.btnNext_10]
         for btn in diary_buttons:
-            btn.clicked.connect(self.switch_to_list1)  # ✅ Chuyển về màn hình ToDoList hoặc màn nhật ký thích hợp
+            btn.clicked.connect(self.switch_to_Diary)
 
         # Lấy danh sách tất cả các nút có tên bắt đầu bằng "btnOkay"
         self.okay_btn = [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnOkay")]
         # Kết nối tất cả các nút với một hàm xử lý chung
         for btn in self.okay_btn:
             btn.clicked.connect(self.switch_to_EmoOkay)
-
 
         self.happy_btn = [btn for btn in self.findChildren(QtWidgets.QPushButton) if btn.objectName().startswith("btnHappy")]
         for btn in self.happy_btn:
@@ -149,6 +148,9 @@ class MainApp(QtWidgets.QMainWindow):
 
     def switch_to_EmoLove(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.EmoLove)
+
+    def switch_to_Diary(self):
+        self.ui.stackedWidget.setCurrentWidget(self.ui.Diary)
 
 
 if __name__ == "__main__":
