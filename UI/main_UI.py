@@ -44,6 +44,14 @@ class MainApp(QtWidgets.QMainWindow):
 
         self.ui.btnDone.clicked.connect(self.hien_thi_quote)
 
+        # Kết nối sự kiện khi nhấn Enter trong các ô nhập
+        self.ui.day.returnPressed.connect(lambda: self.ui.month.setFocus())
+        self.ui.month.returnPressed.connect(lambda: self.ui.year.setFocus())
+        self.ui.year.returnPressed.connect(self.hien_thi_quote)
+
+        # Kết nối nút Done để hiển thị quote
+        self.ui.btnDone.clicked.connect(self.hien_thi_quote)
+
         # các nút để chuyển về main
         main_buttons = [self.ui.btnLogIn, self.ui.btnDone, self.ui.btnNext_8, self.ui.btnPre, self.ui.btnPre_4,
                         self.ui.btnPre_5, self.ui.btnPre_6, self.ui.btnPre_7, self.ui.btnPre_8, self.ui.btnPre_9,
