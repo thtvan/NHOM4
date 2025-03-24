@@ -42,8 +42,6 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnAdd_2.clicked.connect(self.switch_to_list3)
         self.ui.btnAdd_3.clicked.connect(self.switch_to_list4)
 
-        self.ui.btnDone.clicked.connect(self.hien_thi_quote)
-
         # Kết nối sự kiện khi nhấn Enter trong các ô nhập
         self.ui.day.returnPressed.connect(lambda: self.ui.month.setFocus())
         self.ui.month.returnPressed.connect(lambda: self.ui.year.setFocus())
