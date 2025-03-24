@@ -14,8 +14,8 @@ class MainApp(QtWidgets.QMainWindow):
 
         # Kết nối các nút chuyển các màn
         self.ui.pushButton.clicked.connect(self.switch_to_askTK)  # Từ Logo -> AskTK
-        self.ui.btnYes.clicked.connect(self.switch_to_signup)     # Từ AskTK -> SignUp
-        self.ui.btnNo.clicked.connect(self.switch_to_login)       # Từ AskTK -> LogIn
+        self.ui.btnYes.clicked.connect(self.switch_to_login)     # Từ AskTK -> SignUp
+        self.ui.btnNo.clicked.connect(self.switch_to_signup)       # Từ AskTK -> LogIn
 
         self.ui.btnSignup.clicked.connect(self.switch_to_gthieu1)   # Từ SignUp -> Gthieu1
         self.ui.btnNext.clicked.connect(self.switch_to_gthieu2)   # Từ Gthieu1 -> Gthieu2
