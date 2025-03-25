@@ -3,7 +3,7 @@ from App_UI import Ui_MainWindow
 from Random_quotes import get_quote_from_ui
 import sys
 from UI.auth import save_user_to_json, save_user_to_mongodb, check_login_json, check_login_mongodb
-
+from auth import check_login_json, check_login_mongodb, load_users_from_json
 class MainApp(QtWidgets.QMainWindow):
 
     def __init__(self):
@@ -53,6 +53,8 @@ class MainApp(QtWidgets.QMainWindow):
         self.ui.btnDone.clicked.connect(self.hien_thi_quote)
 
         self.switch_to_Logo()
+
+        self.ui.btnSignOut.clicked.connect(self.logout)
 
         # các nút để chuyển về main
         main_buttons = [self.ui.btnLogIn, self.ui.btnDone, self.ui.btnNext_8, self.ui.btnPre, self.ui.btnPre_4,
@@ -182,16 +184,27 @@ class MainApp(QtWidgets.QMainWindow):
         username = self.ui.lineUserName.text().strip()
         password = self.ui.linePassword.text().strip()
         confirm = self.ui.lineConfirm.text().strip()
+        ngay = self.ui.day.text().strip()
+        thang = self.ui.month.text().strip()
+        nam = self.ui.year.text().strip()
 
-        if not username or not password or not confirm:
+        if not username or not password or not confirm or not ngay or not thang or not nam:
             QtWidgets.QMessageBox.warning(self, "Lỗi", "Vui lòng nhập đầy đủ thông tin.")
             return
+
         if password != confirm:
             QtWidgets.QMessageBox.warning(self, "Lỗi", "Mật khẩu không khớp.")
             return
 
-        save_user_to_json(username, password)
-        save_user_to_mongodb(username, password)
+        # Kiểm tra nếu tài khoản đã tồn tại
+        if check_login_json(username, password):
+            QtWidgets.QMessageBox.warning(self, "Lỗi", "Tài khoản đã tồn tại. Chuyển về trang đăng nhập.")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.LogIn)
+            return
+
+        # Lưu tài khoản và ngày sinh vào JSON
+        save_user_to_json(username, password, ngay, thang, nam)
+        save_user_to_mongodb(username, password, ngay, thang, nam)
 
         QtWidgets.QMessageBox.information(self, "Thành công", "Đăng ký thành công!")
         self.switch_to_gthieu1()
@@ -200,11 +213,29 @@ class MainApp(QtWidgets.QMainWindow):
         username = self.ui.lineUserName_2.text().strip()
         password = self.ui.linePass.text().strip()
 
-        if check_login_json(username, password) or check_login_mongodb(username, password):
+        users = load_users_from_json()
+
+        if username in users and users[username]["password"] == password:
             QtWidgets.QMessageBox.information(self, "Thành công", "Đăng nhập thành công!")
-            self.switch_to_main()
+
+            # Lấy ngày sinh từ JSON
+            ngay = users[username].get("ngay", "")
+            thang = users[username].get("thang", "")
+            nam = users[username].get("nam", "")
+
+            # Nếu đã có ngày sinh, hiển thị ngay câu quote
+            if ngay and thang and nam:
+                quote = get_quote_from_ui(ngay, thang, nam)
+                self.ui.lineQuote.setText(quote)
+
+            self.switch_to_main()  # Chỉ chuyển trang nếu đăng nhập đúng
         else:
-            QtWidgets.QMessageBox.warning(self, "Lỗi", "Sai tài khoản hoặc mật khẩu.")
+            QtWidgets.QMessageBox.warning(self, "Lỗi", "Sai tài khoản hoặc mật khẩu. Vui lòng nhập lại!")
+            self.ui.lineUserName_2.clear()
+            self.ui.linePass.clear()
+            self.ui.lineUserName_2.setFocus()
+            self.ui.stackedWidget.setCurrentWidget(self.ui.LogIn)
+
     def hien_thi_quote(self):
         # Lấy dữ liệu từ giao diện
         ngay = self.ui.day.text().strip()
@@ -216,6 +247,10 @@ class MainApp(QtWidgets.QMainWindow):
 
         # Hiển thị câu quote lên `lineQuote`
         self.ui.lineQuote.setText(quote)
+
+    def logout(self):
+        """Hàm xử lý đăng xuất, quay lại trang đăng nhập"""
+        self.ui.stackedWidget.setCurrentWidget(self.ui.LogIn)
 
 
 if __name__ == "__main__":

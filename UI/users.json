@@ -1,5 +1,26 @@
 {
-    "Thảo Vân": "mệt rồi nha",
-    "mi": "hj",
-    "hj": "ok"
+    "Thảo Vân": {
+        "password": "123456",
+        "ngay": "15",
+        "thang": "8",
+        "nam": "2000"
+    },
+    "mi": {
+        "password": "password123",
+        "ngay": "20",
+        "thang": "11",
+        "nam": "1998"
+    },
+    "hj": {
+        "password": "okok",
+        "ngay": "5",
+        "thang": "6",
+        "nam": "2002"
+    },
+    "huyen": {
+        "password": "hihi123",
+        "ngay": "12",
+        "thang": "9",
+        "nam": "1995"
+    }
 }
