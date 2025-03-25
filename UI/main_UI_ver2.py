@@ -52,6 +52,8 @@ class MainApp(QtWidgets.QMainWindow):
         # Kết nối nút Done để hiển thị quote
         self.ui.btnDone.clicked.connect(self.hien_thi_quote)
 
+        self.switch_to_Logo()
+
         # các nút để chuyển về main
         main_buttons = [self.ui.btnLogIn, self.ui.btnDone, self.ui.btnNext_8, self.ui.btnPre, self.ui.btnPre_4,
                         self.ui.btnPre_5, self.ui.btnPre_6, self.ui.btnPre_7, self.ui.btnPre_8, self.ui.btnPre_9,
