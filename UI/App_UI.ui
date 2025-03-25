@@ -42,7 +42,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>7</number>
+     <number>8</number>
     </property>
     <widget class="QWidget" name="logo">
      <property name="maximumSize">
@@ -907,7 +907,7 @@ border:None;</string>
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border: none;
-</string>
+font: 14pt &quot;Times New Roman&quot;;</string>
       </property>
       <property name="text">
        <string/>
@@ -2918,7 +2918,7 @@ border:None;</string>
      <x>0</x>
      <y>0</y>
      <width>906</width>
-     <height>26</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
