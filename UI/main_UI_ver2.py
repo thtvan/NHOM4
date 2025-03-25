@@ -188,9 +188,10 @@ class MainApp(QtWidgets.QMainWindow):
         thang = self.ui.month.text().strip()
         nam = self.ui.year.text().strip()
 
-        if not username or not password or not confirm or not ngay or not thang or not nam:
+        # Kiểm tra nếu có bất kỳ ô nào trống
+        if not all([username, password, confirm]):
             QtWidgets.QMessageBox.warning(self, "Lỗi", "Vui lòng nhập đầy đủ thông tin.")
-            return
+            return  # Thoát khỏi hàm, không tiếp tục đăng ký
 
         if password != confirm:
             QtWidgets.QMessageBox.warning(self, "Lỗi", "Mật khẩu không khớp.")
@@ -202,7 +203,7 @@ class MainApp(QtWidgets.QMainWindow):
             self.ui.stackedWidget.setCurrentWidget(self.ui.LogIn)
             return
 
-        # Lưu tài khoản và ngày sinh vào JSON
+        # Lưu tài khoản vào JSON và MongoDB
         save_user_to_json(username, password, ngay, thang, nam)
         save_user_to_mongodb(username, password, ngay, thang, nam)
 

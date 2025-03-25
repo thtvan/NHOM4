@@ -22,5 +22,11 @@
         "ngay": "12",
         "thang": "9",
         "nam": "1995"
+    },
+    "huhu": {
+        "password": "hihi",
+        "ngay": "",
+        "thang": "",
+        "nam": ""
     }
 }
