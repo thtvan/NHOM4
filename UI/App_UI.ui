@@ -42,7 +42,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>7</number>
     </property>
     <widget class="QWidget" name="logo">
      <property name="maximumSize">
@@ -257,6 +257,12 @@ border:None;</string>
         <height>91</height>
        </size>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="whatsThis">
        <string/>
       </property>
@@ -264,6 +270,9 @@ border:None;</string>
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="linePass">
@@ -281,10 +290,19 @@ border:None;</string>
         <height>91</height>
        </size>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QPushButton" name="btnQuay_2">
@@ -345,10 +363,19 @@ border:None;</string>
         <height>51</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="linePassword">
@@ -360,10 +387,19 @@ border:None;</string>
         <height>51</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineConfirm">
@@ -375,10 +411,19 @@ border:None;</string>
         <height>51</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QPushButton" name="btnSignup">
@@ -657,10 +702,19 @@ border:None;</string>
         <height>111</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="month">
@@ -672,10 +726,19 @@ border:None;</string>
         <height>101</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="year">
@@ -687,10 +750,19 @@ border:None;</string>
         <height>111</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255255,255);
 border:None;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QPushButton" name="btnDone">
@@ -795,25 +867,53 @@ border:None;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineQuote">
+     <widget class="QLabel" name="btnSignOut">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>400</y>
-        <width>791</width>
-        <height>151</height>
+        <x>770</x>
+        <y>20</y>
+        <width>121</width>
+        <height>41</height>
        </rect>
       </property>
-      <property name="maximumSize">
-       <size>
-        <width>1051</width>
-        <height>201</height>
-       </size>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>15</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
 border:None;</string>
+      </property>
+      <property name="text">
+       <string>Đăng xuất</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lineQuote">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>400</y>
+        <width>781</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(255,255,255);
+border: none;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </widget>
@@ -881,6 +981,12 @@ border:None;</string>
         <height>71</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
@@ -940,6 +1046,12 @@ border:None;</string>
         <height>61</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
@@ -976,6 +1088,12 @@ border:None;</string>
         <width>571</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
@@ -1041,6 +1159,12 @@ border:None;</string>
         <height>61</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
@@ -1055,6 +1179,12 @@ border:None;</string>
         <width>561</width>
         <height>61</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
@@ -1092,6 +1222,12 @@ border:None;</string>
         <width>561</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
@@ -1140,6 +1276,12 @@ border:None;</string>
         <height>71</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
@@ -1177,6 +1319,12 @@ border:None;</string>
         <height>61</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
@@ -1192,6 +1340,12 @@ border:None;</string>
         <height>51</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
 color: rgb(255,255,255);
@@ -1206,6 +1360,12 @@ border:None;</string>
         <width>571</width>
         <height>61</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MTD Balerno Bold</family>
+        <pointsize>13</pointsize>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: transparent;
